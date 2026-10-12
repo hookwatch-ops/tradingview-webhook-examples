@@ -1,0 +1,11 @@
+{
+  "secret": "change-me",
+  "alert_id": "{{ticker}}-{{interval}}-{{timenow}}",
+  "ticker": "{{ticker}}",
+  "exchange": "{{exchange}}",
+  "interval": "{{interval}}",
+  "action": "{{strategy.order.action}}",
+  "contracts": "{{strategy.order.contracts}}",
+  "price": "{{close}}",
+  "time": "{{timenow}}"
+}
